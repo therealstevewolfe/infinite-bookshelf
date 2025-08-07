@@ -1,6 +1,17 @@
 import streamlit as st
 
-MODEL_LIST = ["llama-3.3-70b-specdec", "llama-3.2-90b-versatile", "gemma2-9b-it"]
+MODEL_LIST = [
+    "gemma2-9b-it",
+    "llama-3.1-8b-instant",
+    "llama-3.3-70b-versatile",
+    "deepseek-r1-distill-llama-70b",
+    "meta-llama/llama-4-maverick-17b-128e-instruct",
+    "meta-llama/llama-4-scout-17b-16e-instruct",
+    "moonshotai/kimi-k2-instruct",
+    "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+    "qwen/qwen3-32b",
+]
 
 
 def render_advanced_groq_form(on_submit, button_disabled=False, button_text="Generate"):
